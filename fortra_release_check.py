@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import re
