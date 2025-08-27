@@ -5,6 +5,7 @@ import re
 from urllib.parse import urlparse
 import time
 import csv
+import os
 
 # Read URLs from the input file
 try:
@@ -105,6 +106,9 @@ try:
             outfile.write(f"{item['name']:<50}{item['version']:<15}{item['date']:<20}\n")
     print("Output written to release_status.txt")
 
+    # Open release_status.txt with the default text editor
+    os.system("open release_status.txt")
+
     # Optional: CSV output (uncomment to use instead of txt)
     """
     with open('release_status.csv', 'w', newline='') as csvfile:
@@ -113,6 +117,8 @@ try:
         for item in data:
             writer.writerow([item['name'], item['version'], item['date']])
     print("Output written to release_status.csv")
+    # Open release_status.csv with the default application
+    # os.system("open release_status.csv")
     """
 
 except Exception as e:
