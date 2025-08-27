@@ -63,7 +63,7 @@ https://example.com/fortra/product2
    - Download and install Brave from [brave.com](https://brave.com).
    - Default path: `/Applications/Brave Browser.app/Contents/MacOS/Brave Browser`.
 2. **Install ChromeDriver**:
-   - Download ChromeDriver matching your Brave version (e.g., 139.0.7258.138) from [Chrome for Testing](https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/mac-arm64/chromedriver-mac-arm64.zip).
+   - Download ChromeDriver matching your Brave version (e.g., 139.0.7258.138) from [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/).
    - Extract and place it at `~/.chromedrivers/chromedriver` (create the directory if needed):
      ```bash
      mkdir -p ~/.chromedrivers
