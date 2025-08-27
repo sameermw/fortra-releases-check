@@ -1,34 +1,34 @@
-Product                                           Version        Date                
-Powertech Antivirus for IBM i                     8.13           July 1, 2025        
-Powertech Authority Broker for IBM i              4.25           May 14, 2025        
-Powertech Command Security for IBM i              1.16           August 9, 2022      
-Powertech Compliance Monitor for IBM i            4.5            August 5, 2025      
-Powertech Database Monitor for IBM i              3.18           February 27, 2024   
-Powertech Encryption for IBM i                    4.04           February 26, 2025   
-Powertech Exit Point Manager for IBM i            8.03           January 13, 2025    
-Powertech Multi-Factor Authentication             1.6.1          February 5, 2025    
-Powertech Password Self Help for IBM i            3.005          August 18, 2020     
-Powertech SIEM Agent for IBM i                    4.8            July 2, 2024        
-Robot Alert                                       6.04           August 16, 2024     
-Robot Monitor                                     15.03          July 15, 2024       
-Robot Replay                                      3.31           December 14, 2020   
-Robot Reports                                     7.74           February 13, 2024   
-Robot Save                                        13.05          November 19, 2024   
-Robot Schedule                                    13.19          July 29, 2025       
-Performance Navigator                             19.07          July 2, 2025        
-Level 1  Message Management Suite                 7.0            July 28, 2025       
-Level 2 Systems Operations Suite                  7.0            July 28. 2025       
-Sequel                                            2.17.2.        June 10, 2024       
-Viewpoint                                         11.13          November 22, 2024   
-Esend                                             Not found      August 15, 2023     
-Sequel Web Interface                              7              June 10, 2024       
-Sequel Data Warehouse Server                      08.3.01        November 25, 2024   
-Sequel Data Warehouse Client                      08.2.2808      November 25, 2024   
-Network Security for Insite                       1.11.11        Not found           
-Password Self Help for Insite                     1.9.11         Not found           
-Authority Broker for Insite                       1.1.12         Not found           
-HelpSystems Insite                                3.08           June 20, 2023       
-Multi-Factor Authentication for Insite            1.6.12         Not found           
-Powertech Antivirus for Insite                    1.0.5          November 16, 2020   
-Robot Reports for Insite                          1.0.0          June 4, 2020        
-Robot Schedule for Insite                         1.15.11        Not found           
+Product                                           Version        Date                Flag      
+Powertech Antivirus for IBM i                     8.13           July 1, 2025        New       
+Powertech Authority Broker for IBM i              4.25           May 14, 2025        New       
+Powertech Command Security for IBM i              1.16           August 9, 2022      New       
+Powertech Compliance Monitor for IBM i            4.5            August 5, 2025      New       
+Powertech Database Monitor for IBM i              3.18           February 27, 2024   New       
+Powertech Encryption for IBM i                    4.04           February 26, 2025   New       
+Powertech Exit Point Manager for IBM i            8.03           January 13, 2025    New       
+Powertech Multi-Factor Authentication             1.6.1          February 5, 2025    New       
+Powertech Password Self Help for IBM i            3.005          August 18, 2020     New       
+Powertech SIEM Agent for IBM i                    4.8            July 2, 2024        New       
+Robot Alert                                       6.04           August 16, 2024     New       
+Robot Monitor                                     15.03          July 15, 2024       New       
+Robot Replay                                      3.31           December 14, 2020   New       
+Robot Reports                                     7.74           February 13, 2024   New       
+Robot Save                                        13.05          November 19, 2024   New       
+Robot Schedule                                    13.19          July 29, 2025       New       
+Performance Navigator                             19.07          July 2, 2025        New       
+Level 1  Message Management Suite                 7.0            July 28, 2025       New       
+Level 2 Systems Operations Suite                  7.0            July 28. 2025       New       
+Sequel                                            R11M19         June 10, 2024       New       
+Viewpoint                                         11.24.233      November 22, 2024   New       
+Esend                                             R3M61          August 15, 2023     New       
+Sequel Web Interface                              R10M36         June 10, 2024       New       
+Sequel Data Warehouse Server                      8.3.04         November 25, 2024   New       
+Sequel Data Warehouse Client                      8.3.2904       November 25, 2024   New       
+Network Security for Insite                       1.11.11        Not found           New       
+Password Self Help for Insite                     1.9.11         Not found           New       
+Authority Broker for Insite                       1.1.12         Not found           New       
+HelpSystems Insite                                3.08           June 20, 2023       New       
+Multi-Factor Authentication for Insite            1.6.12         Not found           New       
+Powertech Antivirus for Insite                    1.0.5          November 16, 2020   New       
+Robot Reports for Insite                          1.0.0          June 4, 2020        New       
+Robot Schedule for Insite                         1.15.11        Not found           New       
