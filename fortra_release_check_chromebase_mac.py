@@ -7,22 +7,48 @@ from urllib.parse import urlparse
 import time
 import csv
 import os
+import sys
 import json
+
+# Get the absolute path of the directory where this script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, 'fortra_releasenote_urls.txt')
 
 # Read URLs from the input file
 try:
-    with open('fortra_releasenote_urls.txt', 'r') as file:
+    with open(file_path, 'r') as file:
         urls = [line.strip() for line in file if line.strip()]
 except FileNotFoundError:
-    print("Error: fortra_releasenote_urls.txt not found.")
-    exit(1)
+    print(f"Error: {file_path} not found.")
+    sys.exit(1)
 
-# Load previous versions if file exists
-previous_versions_file = 'previous_versions.json'
+# # Read URLs from the input file
+# try:
+#     with open('fortra_releasenote_urls.txt', 'r') as file:
+#         urls = [line.strip() for line in file if line.strip()]
+# except FileNotFoundError:
+#     print("Error: fortra_releasenote_urls.txt not found.")
+#     exit(1)
+
+# --- Input files ---
+previous_versions_file = os.path.join(script_dir, 'previous_versions.json')
+
+# --- Load previous versions if JSON exists ---
 previous_versions = {}
 if os.path.exists(previous_versions_file):
-    with open(previous_versions_file, 'r') as f:
-        previous_versions = json.load(f)
+    try:
+        with open(previous_versions_file, 'r') as f:
+            previous_versions = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"Warning: {previous_versions_file} is not valid JSON ({e})")
+        previous_versions = {}
+
+# # Load previous versions if file exists
+# previous_versions_file = 'previous_versions.json'
+# previous_versions = {}
+# if os.path.exists(previous_versions_file):
+#     with open(previous_versions_file, 'r') as f:
+#         previous_versions = json.load(f)
 
 # List to hold the extracted data
 data = []
