@@ -1,1 +1,0 @@
-/var/folders/w8/3fd7n0992y9_d9sfh9h1p7480000gn/T/com.apple.WorkflowKit.BackgroundShortcutRunner//683AFD34-68A8-4886-8AF2-70A8783BAAFD:1: command not found: fortra_release_check_chromebase_mac.py
