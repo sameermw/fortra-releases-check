@@ -6,7 +6,7 @@ Powertech Compliance Monitor for IBM i            4.5            August 5, 2025
 Powertech Database Monitor for IBM i              3.18           February 27, 2024   Same      
 Powertech Encryption for IBM i                    4.05           September 10, 2025  Same      
 Powertech Exit Point Manager for IBM i            8.03           January 13, 2025    Same      
-Powertech Multi-Factor Authentication             1.7.1          October 1, 2025     New       
+Powertech Multi-Factor Authentication             1.7.1          October 1, 2025     Same      
 Powertech Password Self Help for IBM i            3.005          August 18, 2020     Same      
 Powertech SIEM Agent for IBM i                    4.8            July 2, 2024        Same      
 Robot Alert                                       6.04           August 16, 2024     Same      
@@ -18,12 +18,12 @@ Robot Schedule                                    13.19          July 29, 2025  
 Performance Navigator                             19.07          July 2, 2025        Same      
 Level 1  Message Management Suite                 7.0            July 28, 2025       Same      
 Level 2 Systems Operations Suite                  7.0            July 28. 2025       Same      
-Sequel                                            R11M20         October 6, 2025     New       
-Viewpoint                                         11.24.275      October 6, 2025     New       
+Sequel                                            R11M20         October 6, 2025     Same      
+Viewpoint                                         11.24.275      October 6, 2025     Same      
 Esend                                             7.6.           October 6, 2025     Invalid   
 Sequel Web Interface                              R10M36         June 10, 2024       Same      
-Sequel Data Warehouse Server                      7.6            September 22, 2025  Invalid   
-Sequel Data Warehouse Client                      8.3.2905       September 22, 2025  New       
+Sequel Data Warehouse Server                      7.6            September 22, 2025  Same      
+Sequel Data Warehouse Client                      8.3.2905       September 22, 2025  Same      
 Network Security for Insite                       1.11.11        Not found           Same      
 Password Self Help for Insite                     1.9.11         Not found           Same      
 Authority Broker for Insite                       1.1.12         Not found           Same      
